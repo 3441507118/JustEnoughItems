@@ -38,8 +38,8 @@ val fabricLoaderVersionRange: String by extra
 //val forgeVersionRange: String by extra
 val githubUrl: String by extra
 //val forgeLoaderVersionRange: String by extra
-val neoforgeVersionRange: String by extra
-val neoforgeLoaderVersionRange: String by extra
+//val neoforgeVersionRange: String by extra
+//val neoforgeLoaderVersionRange: String by extra
 val parchmentVersionForge: String by extra
 val minecraftVersion: String by extra
 val minecraftVersionRange: String by extra
@@ -109,8 +109,8 @@ subprojects {
             //"forgeVersionRange" to forgeVersionRange,
             "githubUrl" to githubUrl,
             //"forgeLoaderVersionRange" to forgeLoaderVersionRange,
-            "neoforgeVersionRange" to neoforgeVersionRange,
-            "neoforgeLoaderVersionRange" to neoforgeLoaderVersionRange,
+            //"neoforgeVersionRange" to neoforgeVersionRange,
+            //"neoforgeLoaderVersionRange" to neoforgeLoaderVersionRange,
             "minecraftVersion" to minecraftVersion,
             "minecraftVersionRange" to minecraftVersionRange,
             "modAuthor" to modAuthor,
