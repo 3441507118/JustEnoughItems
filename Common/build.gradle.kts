@@ -4,14 +4,12 @@ import org.gradle.api.tasks.testing.logging.TestLogEvent
 plugins {
     id("idea")
     id("java")
-    id("net.neoforged.moddev")
     id("maven-publish")
 }
 
 // gradle.properties
 val jUnitVersion: String by extra
 val minecraftVersion: String by extra
-val neoformTimestamp: String by extra
 val modId: String by extra
 val modJavaVersion: String by extra
 
@@ -27,11 +25,6 @@ val dependencyProjects: List<Project> = listOf(
 
 dependencyProjects.forEach {
     project.evaluationDependsOn(it.path)
-}
-
-neoForge {
-    neoFormVersion = "$minecraftVersion-$neoformTimestamp"
-    addModdingDependenciesTo(sourceSets.test.get())
 }
 
 sourceSets {
