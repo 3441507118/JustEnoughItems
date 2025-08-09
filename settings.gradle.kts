@@ -50,7 +50,6 @@ include(
 	"Changelog",
 	"Common", "CommonApi",
 	"NeoForge", "NeoForgeApi",
-	"Forge", "ForgeApi",
 	"Fabric", "FabricApi",
 	"Library",
 	"Gui"
