@@ -29,10 +29,8 @@ jobs:
       - name: Build with Gradle
         run: |
           ./gradlew :Core:build --no-daemon
-          ./gradlew :NeoForge:build --no-daemon
           ./gradlew :Common:build --no-daemon
           ./gradlew :CommonApi:build --no-daemon
-          ./gradlew :NeoForgeApi:build --no-daemon
 
       - name: Copy together artifacts
         shell: bash
