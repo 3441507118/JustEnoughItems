@@ -53,4 +53,3 @@ include(
 	"Library",
 	"Gui"
 )
-exclude(":Forge", ":ForgeApi", ":NeoForge", ":NeoForgeApi")
