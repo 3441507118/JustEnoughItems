@@ -49,8 +49,8 @@ include(
 	"Core",
 	"Changelog",
 	"Common", "CommonApi",
-	"NeoForge", "NeoForgeApi",
 	"Fabric", "FabricApi",
 	"Library",
 	"Gui"
 )
+exclude(":Forge", ":ForgeApi", ":NeoForge", ":NeoForgeApi")
