@@ -15,7 +15,7 @@ plugins {
     id("me.modmuss50.mod-publish-plugin") version("0.7.3") apply(false)
 
     // https://files.minecraftforge.net/net/minecraftforge/gradle/ForgeGradle/index.html
-    id("net.minecraftforge.gradle") version("6.0.26") apply(false)
+    //id("net.minecraftforge.gradle") version("6.0.26") apply(false)
 
     // https://mvnrepository.com/artifact/org.parchmentmc.librarian.forgegradle/org.parchmentmc.librarian.forgegradle.gradle.plugin
     id("org.parchmentmc.librarian.forgegradle") version("1.2.0") apply(false)
@@ -34,10 +34,10 @@ val fabricApiVersion: String by extra
 val fabricApiVersionRange: String by extra
 val fabricLoaderVersion: String by extra
 val fabricLoaderVersionRange: String by extra
-val forgeVersion: String by extra
-val forgeVersionRange: String by extra
+//val forgeVersion: String by extra
+//val forgeVersionRange: String by extra
 val githubUrl: String by extra
-val forgeLoaderVersionRange: String by extra
+//val forgeLoaderVersionRange: String by extra
 val neoforgeVersionRange: String by extra
 val neoforgeLoaderVersionRange: String by extra
 val parchmentVersionForge: String by extra
@@ -106,9 +106,9 @@ subprojects {
             "fabricApiVersionRange" to fabricApiVersionRange,
             "fabricLoaderVersion" to fabricLoaderVersion,
             "fabricLoaderVersionRange" to fabricLoaderVersionRange,
-            "forgeVersionRange" to forgeVersionRange,
+            //"forgeVersionRange" to forgeVersionRange,
             "githubUrl" to githubUrl,
-            "forgeLoaderVersionRange" to forgeLoaderVersionRange,
+            //"forgeLoaderVersionRange" to forgeLoaderVersionRange,
             "neoforgeVersionRange" to neoforgeVersionRange,
             "neoforgeLoaderVersionRange" to neoforgeLoaderVersionRange,
             "minecraftVersion" to minecraftVersion,
